@@ -19,10 +19,12 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18000DEC276346C27031C75A /* libPods-kokosee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 235B866E74E90CBC757BD191 /* libPods-kokosee.a */; };
+		240C9BFF1F79542900F3E0A5 /* FileProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240C9BFE1F79542900F3E0A5 /* FileProvider.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		240C9C1E1F79582800F3E0A5 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 240C9C1D1F79582800F3E0A5 /* IOSurface.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		3A16BD861F790CF00071EF47 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		D209EF32B38296EFAAE90F8F /* libPods-kokosee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF6F5E049B198C6ECF51827 /* libPods-kokosee.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -250,12 +252,15 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = kokosee/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = kokosee/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		235B866E74E90CBC757BD191 /* libPods-kokosee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kokosee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		240C9BAC1F79500C00F3E0A5 /* FilesProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FilesProvider.framework; path = "../../../Library/Developer/Xcode/DerivedData/kokosee-bxmukvfdbocbbrbqmwsobfyoocwt/Build/Products/Debug-iphoneos/FilesProvider/FilesProvider.framework"; sourceTree = "<group>"; };
+		240C9BFE1F79542900F3E0A5 /* FileProvider.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FileProvider.framework; sourceTree = "<group>"; };
+		240C9C1D1F79582800F3E0A5 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IOSurface.framework; sourceTree = "<group>"; };
 		3AE3E75B1F790BC40069CFF5 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../Library/Developer/Xcode/DerivedData/kokosee-fkipollofaqvsggttqkdswqmstgs/Build/Products/Debug-iphoneos/React/libReact.a"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		C503FD442030415064C2C09C /* Pods-kokosee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokosee.release.xcconfig"; path = "Pods/Target Support Files/Pods-kokosee/Pods-kokosee.release.xcconfig"; sourceTree = "<group>"; };
-		DFF6F5E049B198C6ECF51827 /* libPods-kokosee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kokosee.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B8DC088D83E4BCCE5DE786 /* Pods-kokosee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokosee.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kokosee/Pods-kokosee.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -268,14 +273,16 @@
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
+				240C9C1E1F79582800F3E0A5 /* IOSurface.framework in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
+				240C9BFF1F79542900F3E0A5 /* FileProvider.framework in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				D209EF32B38296EFAAE90F8F /* libPods-kokosee.a in Frameworks */,
+				18000DEC276346C27031C75A /* libPods-kokosee.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,8 +411,9 @@
 		6B4D575B6ECE22C2890EE77F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				240C9BAC1F79500C00F3E0A5 /* FilesProvider.framework */,
 				3AE3E75B1F790BC40069CFF5 /* libReact.a */,
-				DFF6F5E049B198C6ECF51827 /* libPods-kokosee.a */,
+				235B866E74E90CBC757BD191 /* libPods-kokosee.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -449,6 +457,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				240C9C1D1F79582800F3E0A5 /* IOSurface.framework */,
+				240C9BFE1F79542900F3E0A5 /* FileProvider.framework */,
 				13B07FAE1A68108700A75B9A /* kokosee */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* kokoseeTests */,
@@ -515,7 +525,7 @@
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = E5CW793A76;
+						DevelopmentTeam = EUKQS3744F;
 					};
 				};
 			};
@@ -957,9 +967,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = E5CW793A76;
+				DEVELOPMENT_TEAM = EUKQS3744F;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = kokosee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -977,9 +992,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = E5CW793A76;
+				DEVELOPMENT_TEAM = EUKQS3744F;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = kokosee/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
